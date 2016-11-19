@@ -1,0 +1,17 @@
+{
+  "name": "skb",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "babel-node": "babel-node",
+    "dev": "nodemon --exec npm run babel-node -- ./server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.1",
+    "express": "^4.0.0",
+    "node-fetch": "^1.6.3"
+  },
+  "devDependencies": {
+    "babel-preset-stage-0": "^6.16.0"
+  }
+}
